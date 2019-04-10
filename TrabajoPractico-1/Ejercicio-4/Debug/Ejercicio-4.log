@@ -1,0 +1,23 @@
+﻿Build started 10/4/2019 06:09:32.
+     1>Project "C:\Users\Gonzalo\Desktop\ProgramacionTp1\TrabajoPractico-1\Ejercicio-4\Ejercicio-4.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Ejercicio-4.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt "Ejer-4.cpp"
+         Ejer-4.cpp
+     1>c:\users\gonzalo\desktop\programaciontp1\trabajopractico-1\ejercicio-4\ejer-4.cpp(41): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Gonzalo\Desktop\ProgramacionTp1\TrabajoPractico-1\Debug\Ejercicio-4.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Ejercicio-4.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Gonzalo\Desktop\ProgramacionTp1\TrabajoPractico-1\Debug\Ejercicio-4.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Gonzalo\Desktop\ProgramacionTp1\TrabajoPractico-1\Debug\Ejercicio-4.lib" /MACHINE:X86 "Debug\Ejer-4.obj"
+         LINK : C:\Users\Gonzalo\Desktop\ProgramacionTp1\TrabajoPractico-1\Debug\Ejercicio-4.exe not found or not built by the last incremental link; performing full link
+         Ejercicio-4.vcxproj -> C:\Users\Gonzalo\Desktop\ProgramacionTp1\TrabajoPractico-1\Debug\Ejercicio-4.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Gonzalo\Desktop\ProgramacionTp1\TrabajoPractico-1\Debug\Ejercicio-4.exe;#1" /manifest "Debug\Ejercicio-4.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Debug\Ejercicio-4.unsuccessfulbuild".
+         Touching "Debug\Ejercicio-4.lastbuildstate".
+     1>Done Building Project "C:\Users\Gonzalo\Desktop\ProgramacionTp1\TrabajoPractico-1\Ejercicio-4\Ejercicio-4.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.65
